@@ -1,0 +1,23 @@
+.content-container{
+  /*display: inline-flex;*/
+  height: 100%;
+  padding: 4%;
+  display: flex;
+  /*justify-items: auto;*/
+  justify-content: space-around;
+}
+
+.content-item{
+  /*display: inline-flex;*/
+  /*width: 500px;*/
+  width: auto;
+  height: auto;
+  padding: 20px;
+  /*height: 100%;*/
+}
+
+.comp1, .comp3{
+  display: flex;
+  padding: 10%;
+  /*flex-grow: 1;*/
+}

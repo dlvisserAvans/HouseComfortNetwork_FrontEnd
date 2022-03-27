@@ -1,0 +1,48 @@
+.toolbar{
+  min-width: 100%;
+  min-height: 120px;
+}
+
+.mat-toolbar{
+    background-color: white;
+    box-shadow: 10px 0px 20px #00000029;
+    font-family: "Montserrat";
+}
+
+.title-container{
+    display: flex;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.toolbar-title {
+    background: -webkit-linear-gradient(-45deg,#00E0FF,#0066FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+
+.toolbar-title-shadow {
+    position:absolute;
+    text-shadow: 2px 4px 4px #00000029;
+    color:transparent;
+    z-index:0;
+}
+
+.menu-items{
+    display: flex;
+    padding: 20px;
+}
+
+.menu-item{
+    color: black;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.toolbar-spacer{
+  flex: 1 1 auto;
+}
